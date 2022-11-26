@@ -28,8 +28,6 @@ export const Row = styled.div`
     margin-top: 20px;
 `
 
-
-
 export const Title = styled.h2`
     font-family: 'Open Sans';
     font-style: normal;
@@ -76,4 +74,14 @@ export const CriarText = styled.p`
     font-size: 14px;
     line-height: 19px;
     color: #23DD7A;
+
+    button {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        color: #23DD7A;
+        background: none;
+        border: none;
+    }
 `

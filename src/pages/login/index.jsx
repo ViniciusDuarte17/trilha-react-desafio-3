@@ -56,7 +56,11 @@ const Login = () => {
                 </form>
                 <Row>
                     <EsqueciText>Esqueci minha senha</EsqueciText>
-                    <CriarText>Criar Conta</CriarText>
+                    <CriarText>
+                        <button onClick={() => navigate("/signup")}>
+                          Criar Conta
+                        </button>
+                    </CriarText>
                 </Row>
                 </Wrapper>
             </Column>
